@@ -1,0 +1,47 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+    padding:0;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(215, 236, 244)
+    /* background-color: rgb(142, 238, 238); */
+}
+
+.container{
+    width:500px;
+    padding:10px;
+    text-align: center;
+    background-color: rgb(245, 231, 210);
+    box-shadow: 0 4px 6px rgba(0,0,0,.5);
+    border-radius: 12px;
+}
+
+.textarea{
+    box-sizing: border-box;
+    font-family: monospace;
+    resize: none;
+    width:90%;
+    height:110px;
+    font-size: 18px;
+    color: rgb(25, 7, 36)
+}
+
+.counter-container{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    font-size: 18px;
+    color:tomato;
+    
+}
+.total-counter{
+    color:green;
+    font-weight: bold;
+}
+.remaining-counter{
+    color:red;
+    font-weight: bold;
+}
